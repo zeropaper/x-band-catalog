@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Band Name A",
+    "members": [
+      {
+        "name": "John Doe",
+        "instrument": "Guitar"
+      },
+      {
+        "name": "Jane D.",
+        "instrument": "Vocals"
+      }
+    ],
+    "albums": [
+      {
+        "title": "Album Title 1",
+        "releaseYear": 1980
+      }
+    ]
+  },
+  {
+    "name": "Band Name B",
+    "members": [
+      {
+        "name": "Franky",
+        "instrument": "Drums"
+      },
+      {
+        "name": "Steve",
+        "instrument": "Bass"
+      },
+      {
+        "name": "Sunny",
+        "instrument": "Vocals"
+      }
+    ],
+    "albums": [
+      {
+        "title": "Album Title 1",
+        "releaseYear": 1999
+      },
+      {
+        "title": "Album Title 3",
+        "releaseYear": 2008
+      },
+      {
+        "title": "Album Title 2",
+        "releaseYear": 2003
+      }
+    ]
+  },
+  {
+    "name": "Band Name C",
+    "members": [
+      {
+        "name": "Jane D.",
+        "instrument": "Vocals"
+      }
+    ],
+    "albums": [
+      {
+        "title": "Album Title 1",
+        "releaseYear": 1980
+      }
+    ]
+  },
+  {
+    "name": "Band D",
+    "members": [
+      {
+        "name": "Franky",
+        "instrument": "Drums"
+      },
+      {
+        "name": "Steve",
+        "instrument": "Bass"
+      },
+      {
+        "name": "Sunny",
+        "instrument": "Vocals"
+      }
+    ],
+    "albums": [
+      {
+        "title": "Album Title 2",
+        "releaseYear": 2003
+      },
+      {
+        "title": "Album Title 1",
+        "releaseYear": 1999
+      }
+    ]
+  },
+  {
+    "name": "Band E",
+    "members": [
+      {
+        "name": "Franky",
+        "instrument": "Drums"
+      },
+      {
+        "name": "Steve",
+        "instrument": "Bass"
+      },
+      {
+        "name": "Sunny",
+        "instrument": "Vocals"
+      }
+    ],
+    "albums": [
+      {
+        "title": "Album Title 2",
+        "releaseYear": 2003
+      },
+      {
+        "title": "Album Title 1",
+        "releaseYear": 1999
+      }
+    ]
+  }
+]
