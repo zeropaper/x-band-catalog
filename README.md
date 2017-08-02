@@ -14,13 +14,23 @@ Train the access of data (in objects and arrays).
 
 ## Exercise
 
-Create a `index.html`, a `style.css` file and an `index.js`.
+### Step 1
 
-### Design
+Create a `index.html`, a `style.css` so that the design matches.
+
+#### Design
 
 If the viewport size is smaller than __640px__ the "cards" are
-arranged on __1 column__.
+arranged on __1 column__.  
 If the viewport size is bigger than __640px__ the "cards" are
-arranged on __2 columns__.
+arranged on __2 columns__.  
 If the viewport size is bigger than 1024px the "cards" are
-arranged on __4 columns__.
+arranged on __4 columns__.  
+
+The background color of the __header__ is `#333` and its text color is `#ccc`.  
+The background color of the __body__ is `#ccc` and its text color is `#333`.  
+When __hovering__ a band card, its background transition to `#fff` in `218ms`.
+
+### Step 2
+
+Load the `bands.json` using the `fetch()` function 
