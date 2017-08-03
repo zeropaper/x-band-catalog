@@ -34,3 +34,9 @@ When __hovering__ a band card, its background transition to `#fff` in `218ms`.
 ### Step 2
 
 Load the `bands.json` using the `fetch()` function 
+
+In order to exercise proper usage of git we create a _feature branch_ as follow:
+
+- in your terminal enter `git checkout -b feature-js`
+- make a commit of your index.js like `git add index.js` and then `git commit -m "add fetch"`
+- push your branch `git push -u origin feature-js` (the `-u` option is used to keep your local branch and the remote branch synced)
