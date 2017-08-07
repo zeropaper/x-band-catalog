@@ -46,7 +46,7 @@ function whenJSONLoaded(bands) {
         <h2>${band.genre}</h2>
       </header>
 
-      ${renderMembers(band.members)}
+      ${renderMembers(band.members.sort(compareByName))}
 
       ${renderAlbums(band.albums)}
     </section>`;
