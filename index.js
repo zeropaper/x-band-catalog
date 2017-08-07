@@ -43,29 +43,55 @@ function compareByReleaseYear(a, b) {
   return 0;
 }
 
+var searchFieldElement = document.querySelector('#search-field');
+var searchGenreElement = document.querySelector('#search-genre');
 var mainElement = document.querySelector('main.bands');
+
 function whenJSONLoaded(bands) {
-  var completeListOfBands = bands.sort(compareByName).map(function(band) {
-    return `<section>
-      <header>
-        <h1>${band.name}</h1>
-        <h2>${band.genre}</h2>
-      </header>
+  var completeListOfBands = bands
+    .filter(function(band) {
+      var lowerCaseProperty = band.name.toLowerCase();
+      if (searchGenreElement.checked) {
+        lowerCaseProperty = band.genre.toLowerCase();
+      }
+      var lowerCaseSearch = searchFieldElement.value.toLowerCase();
+      return lowerCaseProperty.indexOf(lowerCaseSearch) > -1;
+    })
+    .sort(compareByName)
+    .map(function(band) {
+      return `<section>
+        <header>
+          <h1>${band.name}</h1>
+          <h2>${band.genre}</h2>
+        </header>
 
-      ${renderMembers(band.members.sort(compareByName))}
+        ${renderMembers(band.members.sort(compareByName))}
 
-      ${renderAlbums(band.albums.sort(compareByReleaseYear))}
-    </section>`;
-  }).join('');
+        ${renderAlbums(band.albums.sort(compareByReleaseYear))}
+      </section>`;
+    })
+    .join('');
 
   mainElement.innerHTML = completeListOfBands;
 }
 
-fetch('./bands.json')
-  .then(function(response) {
-    return response.json();
-  })
-  .then(whenJSONLoaded)
-  .catch(function(err) {
-    throw err;
-  });
+function loadJSON() {
+  fetch('./bands.json')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(whenJSONLoaded)
+    .catch(function(err) {
+      throw err;
+    });
+}
+
+
+searchFieldElement.addEventListener('keyup', function() {
+  loadJSON();
+});
+searchGenreElement.addEventListener('click', function() {
+  loadJSON();
+});
+
+loadJSON();
