@@ -31,9 +31,15 @@ function renderAlbums(albums) {
   </div>`;
 }
 
+function compareByName(a, b) {
+  if (a.name > b.name) return 1;
+  if (a.name < b.name) return -1;
+  return 0;
+}
+
 var mainElement = document.querySelector('main.bands');
 function whenJSONLoaded(bands) {
-  var completeListOfBands = bands.map(function(band) {
+  var completeListOfBands = bands.sort(compareByName).map(function(band) {
     return `<section>
       <header>
         <h1>${band.name}</h1>
