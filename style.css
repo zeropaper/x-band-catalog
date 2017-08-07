@@ -26,6 +26,10 @@ body > header h1 {
   font-size: 1em;
   margin-top: 15px;
 }
+body > header label {
+  font-size: 1em;
+  margin-top: 15px;
+}
 
 .bands {
   width: 100%;

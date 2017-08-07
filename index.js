@@ -44,14 +44,18 @@ function compareByReleaseYear(a, b) {
 }
 
 var searchFieldElement = document.querySelector('#search-field');
+var searchGenreElement = document.querySelector('#search-genre');
 var mainElement = document.querySelector('main.bands');
 
 function whenJSONLoaded(bands) {
   var completeListOfBands = bands
     .filter(function(band) {
-      var lowerCaseName = band.name.toLowerCase();
+      var lowerCaseProperty = band.name.toLowerCase();
+      if (searchGenreElement.checked) {
+        lowerCaseProperty = band.genre.toLowerCase();
+      }
       var lowerCaseSearch = searchFieldElement.value.toLowerCase();
-      return lowerCaseName.indexOf(lowerCaseSearch) > -1;
+      return lowerCaseProperty.indexOf(lowerCaseSearch) > -1;
     })
     .sort(compareByName)
     .map(function(band) {
