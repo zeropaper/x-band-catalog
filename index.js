@@ -15,6 +15,22 @@ function renderMembers(members) {
   </div>`;
 }
 
+function renderAlbums(albums) {
+  var list = albums.map(function(album) {
+    return `<li>
+      <span class="album-name">${album.title}</span>
+      <span class="album-release-year">${album.releaseYear}</span>
+    </li>`;
+  }).join('');
+
+  return `<div class="albums">
+    <h3>Albums</h3>
+    <ul>
+      ${list}
+    </ul>
+  </div>`;
+}
+
 var mainElement = document.querySelector('main.bands');
 function whenJSONLoaded(bands) {
   var completeListOfBands = bands.map(function(band) {
@@ -26,19 +42,7 @@ function whenJSONLoaded(bands) {
 
       ${renderMembers(band.members)}
 
-      <div class="albums">
-        <h3>Albums</h3>
-        <ul>
-          <li>
-            <span class="album-name">Album Name</span>
-            <span class="album-release-year">(2001)</span>
-          </li>
-          <li>
-            <span class="album-name">Album Name</span>
-            <span class="album-release-year">(2001)</span>
-          </li>
-        </ul>
-      </div>
+      ${renderAlbums(band.albums)}
     </section>`;
   }).join('');
 
