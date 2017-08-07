@@ -110,7 +110,7 @@ __Only__ take care of displaying the right band _name_ and _genre_ (we will take
 Create a function (called `renderMembers`) which takes 1 argument (`members`) to render the members of a band.
 
 <details>
-<summary>Band Template</summary>
+<summary>Band Members</summary>
 
     function renderMembers(members) {
       return '<ul>' + members.map(function(member) {
@@ -127,7 +127,7 @@ Create a function (called `renderMembers`) which takes 1 argument (`members`) to
 Make the list of members of each bands rely on the data using the previously create `renderMembers` function.
 
 <details>
-<summary>Band Template</summary>
+<summary>Band Members Usage</summary>
 
     var mainElement = document.querySelector('main.bands');
     function whenJSONLoaded(bands) {
