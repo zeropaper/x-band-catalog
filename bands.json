@@ -1,249 +1,265 @@
 [
   {
-    "name": "Band Name A",
+    "name": "Rage Against the Machine",
     "genre": "Rock",
     "members": [
       {
-        "name": "John Doe",
+        "name": "Zack de la Rocha",
+        "instrument": "Vocals"
+      },
+      {
+        "name": "Tom Morello",
         "instrument": "Guitar"
       },
       {
-        "name": "Jane D.",
-        "instrument": "Vocals"
-      }
-    ],
-    "albums": [
-      {
-        "title": "Album Title 1",
-        "releaseYear": 1980
-      }
-    ]
-  },
-  {
-    "name": "Band Name B",
-    "genre": "Pop",
-    "members": [
-      {
-        "name": "Franky",
-        "instrument": "Drums"
-      },
-      {
-        "name": "Steve",
+        "name": "Tim Commerford",
         "instrument": "Bass"
       },
       {
-        "name": "Sunny",
-        "instrument": "Vocals"
+        "name": "Brad Wilk",
+        "instrument": "Drums"
       }
     ],
     "albums": [
       {
-        "title": "Album Title 1",
+        "title": "Rage Against the Machine",
+        "releaseYear": 1992
+      },
+      {
+        "title": "Evil Empire",
+        "releaseYear": 1996
+      },
+      {
+        "title": "The Battle of Los Angeles",
         "releaseYear": 1999
       },
       {
-        "title": "Album Title 3",
-        "releaseYear": 2008
-      },
-      {
-        "title": "Album Title 2",
-        "releaseYear": 2003
+        "title": "Renegades",
+        "releaseYear": 2000
       }
     ]
   },
   {
-    "name": "Band Name C",
-    "genre": "Rock",
-    "members": [
-      {
-        "name": "Jane D.",
-        "instrument": "Vocals"
-      }
-    ],
-    "albums": [
-      {
-        "title": "Album Title 1",
-        "releaseYear": 1980
-      }
-    ]
-  },
-  {
-    "name": "Band D",
+    "name": "Cypress Hill",
     "genre": "HipHop",
     "members": [
       {
-        "name": "Franky",
+        "name": "B-Real",
+        "instrument": "Vocals"
+      },
+      {
+        "name": "DJ Muggs",
+        "instrument": "Turntables"
+      },
+      {
+        "name": "Sen Dog",
+        "instrument": "Vocals"
+      },
+      {
+        "name": "Eric Bobo",
         "instrument": "Drums"
+      }
+    ],
+    "albums": [
+      {
+        "title": "Cypress Hill",
+        "releaseYear": 1991
       },
       {
-        "name": "Steve",
-        "instrument": "Bass"
+        "title": "Black Sunday",
+        "releaseYear": 1993
       },
       {
-        "name": "Sunny",
+        "title": "Cypress Hill III: Temples of Boom",
+        "releaseYear": 1995
+      },
+      {
+        "title": "Cypress Hill IV",
+        "releaseYear": 1998
+      },
+      {
+        "title": "Skull & Bones",
+        "releaseYear": 2000
+      },
+      {
+        "title": "Stoned Raiders",
+        "releaseYear": 2001
+      },
+      {
+        "title": "Till Death Do Us Part",
+        "releaseYear": 2004
+      },
+      {
+        "title": "Rise Up",
+        "releaseYear": 2010
+      }
+    ]
+  },
+  {
+    "name": "Beastie Boys",
+    "genre": "HipHop",
+    "members": [
+      {
+        "name": "Michael \"Mike D\" Diamond",
+        "instrument": "Vocals"
+      },
+      {
+        "name": "Adam \"MCA\" Yauch",
+        "instrument": "Vocals"
+      },
+      {
+        "name": "Adam \"Ad-Rock\" Horovitz",
         "instrument": "Vocals"
       }
     ],
     "albums": [
       {
-        "title": "Album Title 2",
-        "releaseYear": 2003
+        "title": "Licensed to Ill",
+        "releaseYear": 1986
       },
       {
-        "title": "Album Title 1",
-        "releaseYear": 1999
+        "title": "Paul's Boutique",
+        "releaseYear": 1989
+      },
+      {
+        "title": "Check Your Head",
+        "releaseYear": 1992
+      },
+      {
+        "title": "Ill Communication",
+        "releaseYear": 1994
+      },
+      {
+        "title": "Hello Nasty",
+        "releaseYear": 1998
+      },
+      {
+        "title": "To the 5 Boroughs",
+        "releaseYear": 2004
+      },
+      {
+        "title": "The Mix-Up",
+        "releaseYear": 2007
+      },
+      {
+        "title": "Hot Sauce Committee Part Two",
+        "releaseYear": 2011
       }
     ]
   },
   {
-    "name": "Band E",
+    "name": "Such A Surge",
     "genre": "Rock",
     "members": [
       {
-        "name": "Franky",
-        "instrument": "Drums"
-      },
-      {
-        "name": "Steve",
-        "instrument": "Bass"
-      },
-      {
-        "name": "Sunny",
+        "name": "Oliver Schneider",
         "instrument": "Vocals"
-      }
-    ],
-    "albums": [
-      {
-        "title": "Album Title 2",
-        "releaseYear": 2003
       },
       {
-        "title": "Album Title 1",
-        "releaseYear": 1999
-      }
-    ]
-  },
-  {
-    "name": "Band Name A",
-    "genre": "Rock",
-    "members": [
+        "name": "Michel Begeame",
+        "instrument": "Vocals"
+      },
       {
-        "name": "John Doe",
+        "name": "Lutz Buch",
         "instrument": "Guitar"
       },
       {
-        "name": "Jane D.",
-        "instrument": "Vocals"
+        "name": "Axel Horn",
+        "instrument": ""
+      },
+      {
+        "name": "Carsten \"Antek\" Rudo",
+        "instrument": ""
+      },
+      {
+        "name": "Dennis Graef",
+        "instrument": ""
+      },
+      {
+        "name": "Daniel Laudahn",
+        "instrument": "Guitar"
+      },
+      {
+        "name": "DJ Royal T",
+        "instrument": "Turntables"
+      },
+      {
+        "name": "Rock DJ HandTrix",
+        "instrument": "Turntables"
       }
     ],
     "albums": [
       {
-        "title": "Album Title 1",
-        "releaseYear": 1980
-      }
-    ]
-  },
-  {
-    "name": "Band Name B",
-    "genre": "Pop",
-    "members": [
-      {
-        "name": "Franky",
-        "instrument": "Drums"
+        "title": "Under Pressure",
+        "releaseYear": 1995
       },
       {
-        "name": "Steve",
-        "instrument": "Bass"
+        "title": "Agoraphobic Notes",
+        "releaseYear": 1996
       },
       {
-        "name": "Sunny",
-        "instrument": "Vocals"
-      }
-    ],
-    "albums": [
-      {
-        "title": "Album Title 1",
-        "releaseYear": 1999
+        "title": "Was Besonderes",
+        "releaseYear": 1998
       },
       {
-        "title": "Album Title 3",
-        "releaseYear": 2008
+        "title": "Der Surge Effekt",
+        "releaseYear": 2000
       },
       {
-        "title": "Album Title 2",
+        "title": "Rotlicht",
         "releaseYear": 2003
+      },
+      {
+        "title": "Alpha",
+        "releaseYear": 2005
       }
     ]
   },
   {
-    "name": "Band Name C",
+    "name": "Skunk Anansie",
     "genre": "Rock",
     "members": [
       {
-        "name": "Jane D.",
+        "name": "Skin",
         "instrument": "Vocals"
-      }
-    ],
-    "albums": [
-      {
-        "title": "Album Title 1",
-        "releaseYear": 1980
-      }
-    ]
-  },
-  {
-    "name": "Band D",
-    "genre": "HipHop",
-    "members": [
-      {
-        "name": "Franky",
-        "instrument": "Drums"
       },
       {
-        "name": "Steve",
+        "name": "Martin \"Ace\" Kent",
+        "instrument": "Guitar"
+      },
+      {
+        "name": "Richard \"Cass\" Lewis",
         "instrument": "Bass"
       },
       {
-        "name": "Sunny",
-        "instrument": "Vocals"
-      }
-    ],
-    "albums": [
-      {
-        "title": "Album Title 2",
-        "releaseYear": 2003
-      },
-      {
-        "title": "Album Title 1",
-        "releaseYear": 1999
-      }
-    ]
-  },
-  {
-    "name": "Band E",
-    "genre": "Rock",
-    "members": [
-      {
-        "name": "Franky",
+        "name": "Mark Richardson",
         "instrument": "Drums"
-      },
-      {
-        "name": "Steve",
-        "instrument": "Bass"
-      },
-      {
-        "name": "Sunny",
-        "instrument": "Vocals"
       }
     ],
     "albums": [
       {
-        "title": "Album Title 2",
-        "releaseYear": 2003
+      "title": "Paranoid & Sunburnt",
+      "releaseYear": 1995
       },
       {
-        "title": "Album Title 1",
+        "title": "Stoosh",
+        "releaseYear": 1996
+      },
+      {
+        "title": "Post Orgasmic Chill",
         "releaseYear": 1999
+      },
+      {
+        "title": "Wonderlustre",
+        "releaseYear": 2010
+      },
+      {
+        "title": "Black Traffic",
+        "releaseYear": 2012
+      },
+      {
+        "title": "Anarchytecture",
+        "releaseYear": 2016
       }
     ]
   }
