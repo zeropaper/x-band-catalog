@@ -37,6 +37,12 @@ function compareByName(a, b) {
   return 0;
 }
 
+function compareByReleaseYear(a, b) {
+  if (a.releaseYear > b.releaseYear) return 1;
+  if (a.releaseYear < b.releaseYear) return -1;
+  return 0;
+}
+
 var mainElement = document.querySelector('main.bands');
 function whenJSONLoaded(bands) {
   var completeListOfBands = bands.sort(compareByName).map(function(band) {
@@ -48,7 +54,7 @@ function whenJSONLoaded(bands) {
 
       ${renderMembers(band.members.sort(compareByName))}
 
-      ${renderAlbums(band.albums)}
+      ${renderAlbums(band.albums.sort(compareByReleaseYear))}
     </section>`;
   }).join('');
 
