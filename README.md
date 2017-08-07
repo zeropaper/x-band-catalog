@@ -105,6 +105,8 @@ __Only__ take care of displaying the right band _name_ and _genre_ (we will take
     }
 </details>
 
+Make a commit and push to your `feature-js` branch.
+
 ### Step 4
 
 Create a function (called `renderMembers`) which takes 1 argument (`members`) to render the members of a band.
@@ -121,6 +123,8 @@ Create a function (called `renderMembers`) which takes 1 argument (`members`) to
       }).join('') + '</ul>';
     }
 </details>
+
+Make a commit and push to your `feature-js` branch.
 
 ### Step 5
 
@@ -164,18 +168,30 @@ Make the list of members of each bands rely on the data using the previously cre
     }
 </details>
 
+Make a commit and push to your `feature-js` branch.
+
 ### Step 6
 
 Repeat steps 4 and 5 for the albums of each bands.
+
+Make a commit and push to your `feature-js` branch.
 
 ### Step 7
 
 Sort the bands by their `name`.
 
+Make a commit and push to your `feature-js` branch.
+
 ### Step 8
 
 Sort the members by their `name`.
 
+Make a commit and push to your `feature-js` branch.
+
 ### Step 9
 
 Sort the albums by their `releaseYear`.
+
+Make a commit and push to your `feature-js` branch.
+
+Checkout your `master` branch, merge your `feature-js` branch in it and do a rebase.
