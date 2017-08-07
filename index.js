@@ -90,5 +90,8 @@ function loadJSON() {
 searchFieldElement.addEventListener('keyup', function() {
   loadJSON();
 });
+searchGenreElement.addEventListener('click', function() {
+  loadJSON();
+});
 
 loadJSON();
